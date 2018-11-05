@@ -23,6 +23,7 @@ module Input = Input
 module Op = Op
 module Expr = Expr
 module Hash = Hash
+module Features = Features
 
 type ('a, 'b, 'c, 'd, 'e, 'f) filter = ('a, 'b, 'c, 'd, 'e, 'f) Op.filter
 

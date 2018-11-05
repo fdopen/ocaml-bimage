@@ -803,6 +803,12 @@ module Hash: sig
   val to_int64: t -> int64
 end
 
+module Features: sig
+  type feature_map = (Hash.t, int * int) Hashtbl.t
+
+  val has_overlap: ('a, 'b, 'c) Image.t -> ('a, 'b, 'c) Image.t -> feature_map * feature_map * Hash.Set.t
+end
+
 (*---------------------------------------------------------------------------
    Copyright (c) 2018 Zach Shipko
 
