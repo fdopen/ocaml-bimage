@@ -11,11 +11,11 @@ tags: ["image processing"]
 depends:
 [
     "ocaml" {>= "4.03.0"}
-    "dune" {build}
+    "jbuilder" {build}
 ]
 
 build: [
-    ["dune" "build" "-x" "esp32" "-p" name "-j" jobs]
+    ["jbuilder" "build" "-x" "esp32" "-p" name "-j" jobs]
 ]
 
 synopsis: """
