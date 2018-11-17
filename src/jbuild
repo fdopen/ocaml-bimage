@@ -1,0 +1,7 @@
+(jbuild_version 1)
+(library
+    ((name bimage)
+    (public_name bimage)
+    (no_dynlink)
+    (wrapped false)
+    (libraries (bigarray))))
