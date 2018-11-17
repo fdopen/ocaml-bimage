@@ -15,7 +15,7 @@ depends:
 ]
 
 build: [
-    ["jbuilder" "build" "-x" "esp32" "-p" name "-j" jobs]
+    ["jbuilder" "build" "-x" "esp32" "-p" "bimage" "-j" jobs]
 ]
 
 synopsis: """
